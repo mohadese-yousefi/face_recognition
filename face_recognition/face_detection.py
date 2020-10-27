@@ -28,7 +28,7 @@ class FaceDetection:
             image = cv2.rectangle(image, (x,y), (x+w,y+h), (255,0,0), 2)
             display('image', image)
 
-    def display(window_name, image)
+    def display(window_name, image):
         cv2.imshow(window_name ,image)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
